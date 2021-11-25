@@ -6,10 +6,12 @@ import android.content.res.TypedArray;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.Drawable;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.content.ContextCompat;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
+
+import androidx.appcompat.widget.AppCompatEditText;
+import androidx.core.content.ContextCompat;
+import androidx.fragment.app.FragmentActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +26,7 @@ import java.util.List;
 /**
  * custom view that used as spinner
  */
-public class JRSpinner extends android.support.v7.widget.AppCompatEditText {
+public class JRSpinner extends AppCompatEditText {
 
     private Dialog dialog;
 
